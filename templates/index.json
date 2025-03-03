@@ -44,7 +44,7 @@
         "name": "embedding_example",
         "mediaType": "image",
         "mediaSubtype": "webp",
-        "description": "Use textual inversion for consistent styles",
+        "description": "Use textual inversion for consistent styles.",
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/textual_inversion_embeddings/"
       },
       {
@@ -203,7 +203,7 @@
         "name": "latent_upscale_different_prompt_model",
         "mediaType": "image",
         "mediaSubtype": "webp",
-        "description": "Upscale and change prompt across passes",
+        "description": "Upscale and change prompt across passes.",
         "thumbnailVariant": "zoomHover",
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples"
       }
