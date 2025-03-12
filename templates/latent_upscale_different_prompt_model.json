@@ -488,7 +488,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "\ud83d\udec8 [Learn more about this workflow](https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples)"
+        "### Learn more about this workflow\n\n> [Latent Upscale - ComfyUI_examples](https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples) — Overview\n> \n> [ComfyUI Image Upscale - docs.comfy.org](https://docs.comfy.org/tutorials/basic/upscale) — Upscaling step-by-step tutorial"
       ],
       "color": "#432",
       "bgcolor": "#653"
