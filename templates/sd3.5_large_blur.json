@@ -45,7 +45,14 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
+        "Node name for S&R": "CheckpointLoaderSimple",
+        "models": [
+          {
+            "name": "sd3.5_large_fp8_scaled.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/sd3.5_large_fp8_scaled.safetensors?download=true",
+            "directory": "checkpoints"
+          }
+        ]
       },
       "widgets_values": [
         "sd3.5_large_fp8_scaled.safetensors"
@@ -259,7 +266,14 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "ControlNetLoader"
+        "Node name for S&R": "ControlNetLoader",
+        "models": [
+          {
+            "name": "sd3.5_large_controlnet_blur.safetensors",
+            "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-controlnets/resolve/main/sd3.5_large_controlnet_blur.safetensors?download=true",
+            "directory": "controlnet"
+          }
+        ]
       },
       "widgets_values": [
         "sd3.5_large_controlnet_blur.safetensors"
