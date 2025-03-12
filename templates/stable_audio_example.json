@@ -86,7 +86,7 @@
       "properties": {
         "Node name for S&R": "CheckpointLoaderSimple"
       },
-      "widgets_values": ["stable_audio_open_1.0.safetensors"]
+      "widgets_values": ["model.safetensors"]
     },
     {
       "id": 6,
@@ -294,7 +294,7 @@
       "directory": "text_encoders"
     },
     {
-      "name": "stable_audio_open_1.0.safetensors",
+      "name": "model.safetensors",
       "url": "https://huggingface.co/stabilityai/stable-audio-open-1.0/resolve/main/model.safetensors?download=true",
       "directory": "checkpoints"
     }
