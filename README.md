@@ -71,9 +71,9 @@ Choose the content type and hover effect (optional) for your thumbnail:
 
 | Content Types                                                                                                   | Hover Effects                                                                                                       |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| ![Image Element](docs/pictures/thumbnail-variants/default.gif)<br>**Image**: Default image with no extra effect | ![Compare Slider](docs/thumbnail-variants/compare-slider.gif)<br>**Compare Slider**: Before/after comparison tool   |
-| ![Video Player](docs/pictures/thumbnail-variants/video.gif)<br>**Video**: Webp animation                        | ![Hover Dissolve](docs/thumbnail-variants/hover-disolve.gif)<br>**Hover Dissolve**: Dissolves to 2nd image on hover |
-| ![Audio Controls](docs/pictures/thumbnail-variants/audio.gif)<br>**Audio**: Audio playback                      | ![Hover Zoom](docs/thumbnail-variants/hover-zoom.gif)<br>**Hover Zoom**: Same as default but zooms more             |
+| ![Image Element](docs/pictures/thumbnail-variants/default.gif)<br>**Image**: Default image with no extra effect | ![Compare Slider](docs/pictures/thumbnail-variants/compare-slider.gif)<br>**Compare Slider**: Before/after comparison tool   |
+| ![Video Player](docs/pictures/thumbnail-variants/video.gif)<br>**Video**: Webp animation                        | ![Hover Dissolve](docs/pictures/thumbnail-variants/hover-disolve.gif)<br>**Hover Dissolve**: Dissolves to 2nd image on hover |
+| ![Audio Controls](docs/pictures/thumbnail-variants/audio.gif)<br>**Audio**: Audio playback                      | ![Hover Zoom](docs/pictures/thumbnail-variants/hover-zoom.gif)<br>**Hover Zoom**: Same as default but zooms more             |
 
 > [!WARNING]
 >
