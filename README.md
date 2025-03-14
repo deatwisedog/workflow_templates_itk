@@ -44,7 +44,7 @@ ComfyUI/web_custom_versions/Comfy-Org_ComfyUI_frontend/1.13.5/templates
 
 If using option 3, keep in mind local changes will be overwritten when restarting ComfyUI.
 
-> ![TIP]
+> [!IMPORTANT]
 >
 > Now that you know the location, you can test changes to the templates by modifying the contents of this folder
 
@@ -75,7 +75,7 @@ Choose the content type and hover effect (optional) for your thumbnail:
 | ![Video Player](docs/pictures/thumbnail-variants/video.gif)<br>**Video**: Webp animation                        | ![Hover Dissolve](docs/thumbnail-variants/hover-disolve.gif)<br>**Hover Dissolve**: Dissolves to 2nd image on hover |
 | ![Audio Controls](docs/pictures/thumbnail-variants/audio.gif)<br>**Audio**: Audio playback                      | ![Hover Zoom](docs/thumbnail-variants/hover-zoom.gif)<br>**Hover Zoom**: Same as default but zooms more             |
 
-> ![NOTE]
+> [!WARNING]
 >
 > For video thumbnails, thumbnails need to be converted to webp format first
 
@@ -168,7 +168,7 @@ Now you can start ComfyUI (or refresh browser if already running) and test that 
 
 The name may be displayed as `templateWorkflows.template.your_template_name`, but we will fix that later.
 
-> ![NOTE]
+> [!WARNING]
 >
 > Make sure to use double-quotes `"` instead of single-quotes `'` when adding things to json files
 
@@ -300,7 +300,7 @@ You can also specify the model hash if appropriate:
 
 [Workflow spec](https://docs.comfy.org/specs/workflow_json#workflow-json) for more details.
 
-> ![DANGER]
+> [!CAUTION]
 >
 > Ensure that the filename being downloaded from the links matches the filenames in the `widgets_values` exactly.
 
