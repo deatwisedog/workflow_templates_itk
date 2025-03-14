@@ -222,6 +222,13 @@
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/wan/#text-to-video"
       },
       {
+        "name": "image_to_video_wan",
+        "description": "Quickly Generate videos from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/wan/#image-to-video"
+      },
+      {
         "name": "ltxv_text_to_video",
         "mediaType": "image",
         "mediaSubtype": "webp",
