@@ -364,6 +364,8 @@ Raw markdown used:
 6. Commit and push changes
 7. Create a PR on https://github.com/Comfy-Org/workflow_templates
 
+Here is the PR I made for the Wan template: https://github.com/Comfy-Org/workflow_templates/pull/16
+
 ### 10 — Add Translations
 
 Make a PR in https://github.com/Comfy-Org/ComfyUI_frontend adding the mapping from your template filename (without extension) to the English display name title. The mapping goes in [`ComfyUI_frontend/src/locales/en/main.json`](https://github.com/Comfy-Org/ComfyUI_frontend/blob/9f0abac57ba0d5752c51198bf8a075b8336fdda1/src/locales/en/main.json#L480-L487).
@@ -371,3 +373,5 @@ Make a PR in https://github.com/Comfy-Org/ComfyUI_frontend adding the mapping fr
 If you added a new category, do the same in the [categories section of the translation mappings](https://github.com/Comfy-Org/ComfyUI_frontend/blob/9f0abac57ba0d5752c51198bf8a075b8336fdda1/src/locales/en/main.json#L433).
 
 You can edit the file and make a PR directly on the GitHub website.
+
+Here is the PR I made for the Wan template translations: https://github.com/Comfy-Org/ComfyUI_frontend/pull/3042
