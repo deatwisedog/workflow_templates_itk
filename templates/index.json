@@ -215,6 +215,13 @@
     "type": "video",
     "templates": [
       {
+        "name": "text_to_video_wan",
+        "description": "Quickly Generate videos from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/wan/#text-to-video"
+      },
+      {
         "name": "ltxv_text_to_video",
         "mediaType": "image",
         "mediaSubtype": "webp",
