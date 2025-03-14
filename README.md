@@ -166,8 +166,6 @@ The Wan 2.1 template I'm adding already fits into the "Video" category, so I'll 
 
 Now you can start ComfyUI (or refresh browser if already running) and test that your template works.
 
-The name may be displayed as `templateWorkflows.template.your_template_name`, but we will fix that later.
-
 > [!WARNING]
 >
 > Make sure to use double-quotes `"` instead of single-quotes `'` when adding things to json files
