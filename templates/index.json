@@ -383,8 +383,29 @@
   {
     "moduleName": "default",
     "title": "3D",
-    "type": "video",
+    "type": "3d",
     "templates": [
+      {
+        "name": "hunyuan3d-non-multiview-train",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Use Hunyuan3D 2.0 to generate models from a single view.",
+        "tutorialUrl": ""
+      },
+      {
+        "name": "hunyuan-3d-multiview-elf",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": " Use Hunyuan3D 2mv to generate models from multiple views.",
+        "tutorialUrl": ""
+      },
+      {
+        "name": "hunyuan-3d-turbo",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Use Hunyuan3D 2mv turbo to generate models from multiple views.",
+        "tutorialUrl": ""
+      },
       {
         "name": "stable_zero123_example",
         "mediaType": "image",
