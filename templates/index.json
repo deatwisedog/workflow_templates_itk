@@ -397,14 +397,16 @@
         "mediaType": "image",
         "mediaSubtype": "webp",
         "description": " Use Hunyuan3D 2mv to generate models from multiple views.",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "thumbnailVariant": "compareSlider"
       },
       {
         "name": "hunyuan-3d-turbo",
         "mediaType": "image",
         "mediaSubtype": "webp",
         "description": "Use Hunyuan3D 2mv turbo to generate models from multiple views.",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "thumbnailVariant": "compareSlider"
       },
       {
         "name": "stable_zero123_example",
