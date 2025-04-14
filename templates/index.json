@@ -229,6 +229,20 @@
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/wan/#image-to-video"
       },
       {
+        "name": "wan2.1_fun_inp",
+        "description": "Create videos from start and end frames.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/fun-inp"
+      },
+      {
+        "name": "wan2.1_fun_control",
+        "description": "Guide video generation with pose, depth, edge controls and more.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/fun-control"
+      },
+      {
         "name": "ltxv_text_to_video",
         "mediaType": "image",
         "mediaSubtype": "webp",
