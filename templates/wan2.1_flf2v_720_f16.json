@@ -306,7 +306,7 @@
         "ver": "0.3.29",
         "Node name for S&R": "WanFirstLastFrameToVideo"
       },
-      "widgets_values": [480, 832, 33, 1]
+      "widgets_values": [720 , 1280, 33, 1]
     },
     {
       "id": 89,
