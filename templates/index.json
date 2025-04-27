@@ -432,6 +432,74 @@
       }
     ]
   },
+
+  {
+    "moduleName": "default",
+    "title": "API Nodes",
+    "type": "video",
+    "templates": [
+      {
+        "name": "gpt_image_1_t2i",
+        "title": "Text to Image with GPT Image 1",
+        "description": "Use GPT Image 1 API to generate images from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+      },
+      {
+        "name": "gpt_image_1_i2i",
+        "title": "Image to Image with GPT Image 1",
+        "description": "Use GPT Image 1 API to generate images from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+      },
+      {
+        "name": "gpt_image_1_inpaint",
+        "title": "Inpaint with GPT Image 1",
+        "description": "Use GPT Image 1 API to inpaint images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+      },
+      {
+        "name": "gpt_image_1_multi_inputs",
+        "title": "Multi Inputs with GPT Image 1",
+        "description": "Use GPT Image 1 API with multiple inputs to generate images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+      },
+      {
+        "name": "dall-e-2-t2i",
+        "title": "Text to Image with Dall-E 2",
+        "description": "Use Dall-E 2 API to generate images from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
+      },
+      {
+        "name": "dall-e-2-inpaint",
+        "title": "Inpaint with Dall-E 2",
+        "description": "Use Dall-E 2 API to inpaint images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
+      },
+      {
+        "name": "dall-e-3-t2i",
+        "title": "Text to Image with Dall-E 3",
+        "description": "Use Dall-E 3 API to generate images from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-3"
+      }
+    ]
+  },
   {
     "moduleName": "default",
     "title": "Area Composition",
