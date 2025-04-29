@@ -72,7 +72,7 @@
       "outputs": [],
       "properties": {},
       "widgets_values": [
-        "[View tuotrial here](https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1)\n\nTo use the API, you must be in a secure network environment:\n\n- Only `127.0.0.1` (localhost) is allowed for local access. LAN IPs without https are not supported.\n\n- You need to access the API through an https address. If you run ComfyUI on a Linux server, bind a domain name and set up an SSL certificate.\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n"
+        "[View tuotrial here](https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1)\n\nTo use the API, you must be in a secure network environment:\n\n- Only allows access from `127.0.0.1` or `localhost`.\n\n- Using the `--listen` parameter to access API Nodes via the LAN is not supported.\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n"
       ],
       "color": "#432",
       "bgcolor": "#653"
