@@ -165,6 +165,14 @@
         "description": "Generate images with HiDream I1."
       },
       {
+        "name": "hidream_e1_full",
+        "title": "HiDream E1 Full",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "description": "Edit images with HiDream E1."
+      },
+      {
         "name": "sd3.5_simple_example",
         "title": "SD3.5 Simple",
         "mediaType": "image",
@@ -497,6 +505,64 @@
         "mediaType": "image",
         "mediaSubtype": "webp",
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-3"
+      },
+      {
+        "name": "api_bfl_flux_pro_t2i",
+        "title": "Text to Image with BFL Flux Pro",
+        "description": "Use BFL Flux Pro API to generate images from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_stability_sd3_t2i",
+        "title": "Text to Image with Stability SD3",
+        "description": "Use Stability SD3 API to generate images from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_ideogram_v3_t2i",
+        "title": "Text to Image with Ideogram V3",
+        "description": "Use Ideogram V3 API to generate images from text descriptions.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_luma_photon_i2i",
+        "title": "Image to Image with Luma Photon",
+        "description": "Use Luma Photon API to generate images from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider"
+      },
+      {
+        "name": "api_luma_photon_style_ref",
+        "title": "Style Reference with Luma Photon",
+        "description": "Use Luma Photon API to generate images from style references.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider"
+      },
+      {
+        "name": "api_recraft_image_gen_with_color_control",
+        "title": "Image Generation with Color Control",
+        "description": "Use Recraft API to generate images with color control.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_recraft_image_gen_with_style_control",
+        "title": "Image Generation with Style Control",
+        "description": "Use Recraft API to generate images with style control.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_recraft_vector_gen",
+        "title": "Vector Generation",
+        "description": "Use Recraft API to generate vector images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
       }
     ]
   },
