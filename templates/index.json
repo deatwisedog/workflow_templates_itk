@@ -511,9 +511,9 @@
         "mediaSubtype": "webp"
       },
       {
-        "name": "api_pixverse_t2v_template_i2v",
-        "title": "Text to Video with Pixverse Template",
-        "description": "Use Pixverse API to generate videos from text descriptions using Pixverse template.",
+        "name": "api_pixverse_template_i2v",
+        "title": "Image to Video with Pixverse Template",
+        "description": "Use Pixverse API to generate videos with image using Pixverse template.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
