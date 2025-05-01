@@ -544,6 +544,13 @@
         "thumbnailVariant": "compareSlider"
       },
       {
+        "name": "api_luma_i2v",
+        "title": "Image to Video with Luma",
+        "description": "Use Luma Photon API to generate videos from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
         "name": "api_recraft_image_gen_with_color_control",
         "title": "Image Generation with Color Control",
         "description": "Use Recraft API to generate images with color control.",
@@ -561,6 +568,48 @@
         "name": "api_recraft_vector_gen",
         "title": "Vector Generation",
         "description": "Use Recraft API to generate vector images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_kling_i2v",
+        "title": "Image to Video with Kling",
+        "description": "Use Kling API to generate videos from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_google_veo2_i2v",
+        "title": "Image to Video with Google VEo2",
+        "description": "Use Google VEo2 API to generate videos from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_minimax_i2v",
+        "title": "Image to Video with Minimax",
+        "description": "Use Minimax API to generate videos from images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pika_scene",
+        "title": "Generate videos from scene images using Pika API",
+        "description": "Use Pika API to generate videos from scene images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pixverse_t2v_template_i2v",
+        "title": "Text to Video with Pixverse Template",
+        "description": "Use Pixverse API to generate videos from text descriptions using Pixverse template.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pixverse_t2v",
+        "title": "Text to Video with Pixverse",
+        "description": "Use Pixverse API to generate videos from text descriptions.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       }
