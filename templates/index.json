@@ -251,101 +251,6 @@
   },
   {
     "moduleName": "default",
-    "title": "ControlNet",
-    "type": "image",
-    "templates": [
-      {
-        "name": "controlnet_example",
-        "title": "Scribble ControlNet",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Control image generation with reference images.",
-        "thumbnailVariant": "hoverDissolve",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/"
-      },
-      {
-        "name": "2_pass_pose_worship",
-        "title": "Pose ControlNet 2 Pass",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generate images from pose references.",
-        "thumbnailVariant": "hoverDissolve",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#pose-controlnet"
-      },
-      {
-        "name": "depth_controlnet",
-        "title": "Depth ControlNet",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Create images with depth-aware generation.",
-        "thumbnailVariant": "hoverDissolve",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
-      },
-      {
-        "name": "depth_t2i_adapter",
-        "title": "Depth T2I Adapter",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Quickly generate depth-aware images with a T2I adapter.",
-        "thumbnailVariant": "hoverDissolve",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
-      },
-      {
-        "name": "mixing_controlnets",
-        "title": "Mixing ControlNets",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Combine multiple ControlNet models together.",
-        "thumbnailVariant": "hoverDissolve",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets"
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "title": "Upscaling",
-    "type": "image",
-    "templates": [
-      {
-        "name": "hiresfix_latent_workflow",
-        "title": "Upscale",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Enhance image quality in latent space.",
-        "thumbnailVariant": "zoomHover",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/"
-      },
-      {
-        "name": "esrgan_example",
-        "title": "ESRGAN",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Use upscale models to enhance image quality.",
-        "thumbnailVariant": "zoomHover",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/"
-      },
-      {
-        "name": "hiresfix_esrgan_workflow",
-        "title": "HiresFix ESRGAN Workflow",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Use upscale models during intermediate steps.",
-        "thumbnailVariant": "zoomHover",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling"
-      },
-      {
-        "name": "latent_upscale_different_prompt_model",
-        "title": "Latent Upscale Different Prompt Model",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Upscale and change prompt across passes.",
-        "thumbnailVariant": "zoomHover",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples"
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
     "title": "Video",
     "type": "video",
     "templates": [
@@ -440,14 +345,13 @@
       }
     ]
   },
-
   {
     "moduleName": "default",
-    "title": "API Nodes",
-    "type": "video",
+    "title": "Image API",
+    "type": "image",
     "templates": [
       {
-        "name": "gpt_image_1_t2i",
+        "name": "api_gpt_image_1_t2i",
         "title": "Text to Image with GPT Image 1",
         "description": "Use GPT Image 1 API to generate images from text descriptions.",
         "mediaType": "image",
@@ -455,7 +359,7 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
       },
       {
-        "name": "gpt_image_1_i2i",
+        "name": "api_gpt_image_1_i2i",
         "title": "Image to Image with GPT Image 1",
         "description": "Use GPT Image 1 API to generate images from images.",
         "mediaType": "image",
@@ -464,7 +368,7 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
       },
       {
-        "name": "gpt_image_1_inpaint",
+        "name": "api_gpt_image_1_inpaint",
         "title": "Inpaint with GPT Image 1",
         "description": "Use GPT Image 1 API to inpaint images.",
         "mediaType": "image",
@@ -473,7 +377,7 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
       },
       {
-        "name": "gpt_image_1_multi_inputs",
+        "name": "api_gpt_image_1_multi_inputs",
         "title": "Multi Inputs with GPT Image 1",
         "description": "Use GPT Image 1 API with multiple inputs to generate images.",
         "mediaType": "image",
@@ -544,13 +448,6 @@
         "thumbnailVariant": "compareSlider"
       },
       {
-        "name": "api_luma_i2v",
-        "title": "Image to Video with Luma",
-        "description": "Use Luma Photon API to generate videos from images.",
-        "mediaType": "image",
-        "mediaSubtype": "webp"
-      },
-      {
         "name": "api_recraft_image_gen_with_color_control",
         "title": "Image Generation with Color Control",
         "description": "Use Recraft API to generate images with color control.",
@@ -568,6 +465,20 @@
         "name": "api_recraft_vector_gen",
         "title": "Vector Generation",
         "description": "Use Recraft API to generate vector images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      }
+    ]
+  },
+  {
+    "moduleName": "default",
+    "title": "Video API",
+    "type": "video",
+    "templates": [
+      {
+        "name": "api_luma_i2v",
+        "title": "Image to Video with Luma",
+        "description": "Use Luma Photon API to generate videos from images.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
@@ -612,6 +523,101 @@
         "description": "Use Pixverse API to generate videos from text descriptions.",
         "mediaType": "image",
         "mediaSubtype": "webp"
+      }
+    ]
+  },
+  {
+    "moduleName": "default",
+    "title": "Upscaling",
+    "type": "image",
+    "templates": [
+      {
+        "name": "hiresfix_latent_workflow",
+        "title": "Upscale",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Enhance image quality in latent space.",
+        "thumbnailVariant": "zoomHover",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/"
+      },
+      {
+        "name": "esrgan_example",
+        "title": "ESRGAN",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Use upscale models to enhance image quality.",
+        "thumbnailVariant": "zoomHover",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/"
+      },
+      {
+        "name": "hiresfix_esrgan_workflow",
+        "title": "HiresFix ESRGAN Workflow",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Use upscale models during intermediate steps.",
+        "thumbnailVariant": "zoomHover",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling"
+      },
+      {
+        "name": "latent_upscale_different_prompt_model",
+        "title": "Latent Upscale Different Prompt Model",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Upscale and change prompt across passes.",
+        "thumbnailVariant": "zoomHover",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples"
+      }
+    ]
+  },
+  {
+    "moduleName": "default",
+    "title": "ControlNet",
+    "type": "image",
+    "templates": [
+      {
+        "name": "controlnet_example",
+        "title": "Scribble ControlNet",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Control image generation with reference images.",
+        "thumbnailVariant": "hoverDissolve",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/"
+      },
+      {
+        "name": "2_pass_pose_worship",
+        "title": "Pose ControlNet 2 Pass",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generate images from pose references.",
+        "thumbnailVariant": "hoverDissolve",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#pose-controlnet"
+      },
+      {
+        "name": "depth_controlnet",
+        "title": "Depth ControlNet",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Create images with depth-aware generation.",
+        "thumbnailVariant": "hoverDissolve",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
+      },
+      {
+        "name": "depth_t2i_adapter",
+        "title": "Depth T2I Adapter",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Quickly generate depth-aware images with a T2I adapter.",
+        "thumbnailVariant": "hoverDissolve",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
+      },
+      {
+        "name": "mixing_controlnets",
+        "title": "Mixing ControlNets",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Combine multiple ControlNet models together.",
+        "thumbnailVariant": "hoverDissolve",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets"
       }
     ]
   },
