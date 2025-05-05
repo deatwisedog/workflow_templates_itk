@@ -1,35 +1,56 @@
 {
   "id": "3ba6fcae-c49e-40dc-8725-12d4cd833fcb",
   "revision": 0,
-  "last_node_id": 59,
-  "last_link_id": 28,
+  "last_node_id": 63,
+  "last_link_id": 30,
   "nodes": [
     {
-      "id": 59,
-      "type": "SaveImage",
+      "id": 62,
+      "type": "MarkdownNote",
       "pos": [
-        2107.092529296875,
-        1407.3564453125
+        956.140625,
+        1404.8330078125
       ],
       "size": [
-        270,
-        270
+        317.3492126464844,
+        184.3429718017578
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "About API Node",
+      "properties": {},
+      "widgets_values": [
+        "To use the API, you must be in a secure network environment:\n\n- Only allows access from `127.0.0.1` or `localhost`.\n\n- Using the `--listen` parameter to access API Nodes via the LAN is not supported.\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 63,
+      "type": "MarkdownNote",
+      "pos": [
+        959.4105834960938,
+        1641.2947998046875
+      ],
+      "size": [
+        317.3492126464844,
+        184.3429718017578
       ],
       "flags": {},
       "order": 1,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 28
-        }
-      ],
+      "inputs": [],
       "outputs": [],
+      "title": "About Ideogram V3",
       "properties": {},
       "widgets_values": [
-        "ComfyUI"
-      ]
+        "[Tuotrial](https://docs.comfy.org/tutorials/api-nodes/ideogram/ideogram-v3) | [教程](https://docs.comfy.org/zh-CN/tutorials/api-nodes/ideogram/ideogram-v3) \n\n There are two modes for the Ideogram V3 node.\n- Text - to - Image mode (when neither **image** nor **mask** is provided)\n- Image Editing mode (when both **image** and **mask** are provided)\n\n## Note\n- **image** and **mask** are optional.\n- **image** and **mask** must be provided simultaneously.\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     },
     {
       "id": 58,
@@ -43,20 +64,20 @@
         333.124755859375
       ],
       "flags": {},
-      "order": 0,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
           "name": "image",
           "shape": 7,
           "type": "IMAGE",
-          "link": null
+          "link": 29
         },
         {
           "name": "mask",
           "shape": 7,
           "type": "MASK",
-          "link": null
+          "link": 30
         }
       ],
       "outputs": [
@@ -81,6 +102,72 @@
         1,
         "QUALITY"
       ]
+    },
+    {
+      "id": 59,
+      "type": "SaveImage",
+      "pos": [
+        2112.443359375,
+        1401.7833251953125
+      ],
+      "size": [
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 28
+        }
+      ],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 60,
+      "type": "LoadImage",
+      "pos": [
+        1300.7972412109375,
+        1406.413330078125
+      ],
+      "size": [
+        342.5999755859375,
+        314
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            29
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "input.png",
+        "image"
+      ]
     }
   ],
   "links": [
@@ -91,6 +178,22 @@
       59,
       0,
       "IMAGE"
+    ],
+    [
+      29,
+      60,
+      0,
+      58,
+      0,
+      "IMAGE"
+    ],
+    [
+      30,
+      60,
+      1,
+      58,
+      1,
+      "MASK"
     ]
   ],
   "groups": [],
@@ -99,11 +202,11 @@
     "ds": {
       "scale": 0.9090909090909095,
       "offset": [
-        -1490.9514085354929,
-        -1075.095231663959
+        -771.5256272854913,
+        -1120.087809788962
       ]
     },
-    "frontendVersion": "1.18.4"
+    "frontendVersion": "1.17.11"
   },
   "version": 0.4
 }
