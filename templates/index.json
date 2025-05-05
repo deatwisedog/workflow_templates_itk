@@ -418,8 +418,8 @@
         "mediaSubtype": "webp"
       },
       {
-        "name": "api_stability_sd3_t2i",
-        "title": "Stability AI SD3 Text to Image",
+        "name": "api_stability_ai_stable_image_ultra_t2i",
+        "title": "Stability AI Stable Image Ultra Text to Image",
         "description": "Generate high quality images with excellent prompt adherence. Perfect for professional use cases at 1 megapixel resolution.",
         "mediaType": "image",
         "mediaSubtype": "webp"
