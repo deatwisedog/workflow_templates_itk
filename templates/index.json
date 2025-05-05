@@ -481,7 +481,8 @@
         "description": "Take static images and instantly create magical high quality animations.",
         "mediaType": "image",
         "mediaSubtype": "webp"
-      },{
+      },
+      {
         "name": "api_luma_t2v",
         "title": "Luma Text to Video",
         "description": "High-quality videos can be generated using simple prompts.",
