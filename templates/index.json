@@ -504,6 +504,13 @@
         "mediaSubtype": "webp"
       },
       {
+        "name": "api_hailuo_minimax_t2v",
+        "title": "MiniMax: Text to Video",
+        "description": "Generate high-quality videos directly from text prompts. Explore MiniMax's advanced AI capabilities to create diverse visual narratives with professional CGI effects and stylistic elements to bring your descriptions to life.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
         "name": "api_hailuo_minimax_i2v",
         "title": "MiniMax: Image to Video",
         "description": "Create refined videos from images and text, including CGI integration and trendy photo effects like viral AI hugging. Choose from a variety of video styles and themes to match your creative vision.",
