@@ -1,7 +1,7 @@
 {
   "id": "d68d25b9-7b7a-4aee-a962-7db6da034203",
   "revision": 0,
-  "last_node_id": 7,
+  "last_node_id": 9,
   "last_link_id": 5,
   "nodes": [
     {
@@ -53,7 +53,7 @@
         270
       ],
       "flags": {},
-      "order": 5,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -80,7 +80,7 @@
         46
       ],
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -146,29 +146,6 @@
       ]
     },
     {
-      "id": 7,
-      "type": "MarkdownNote",
-      "pos": [
-        4270,
-        -880
-      ],
-      "size": [
-        340,
-        200
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "[View tuotrial here](https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1)\n\nTo use the API, you must be in a secure network environment:\n\n- Only allows access from `127.0.0.1` or `localhost`.\n\n- Using the `--listen` parameter to access API Nodes via the LAN is not supported.\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 1,
       "type": "OpenAIGPTImage1",
       "pos": [
@@ -180,7 +157,7 @@
         252
       ],
       "flags": {},
-      "order": 4,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -216,7 +193,56 @@
         "opaque",
         "auto",
         1
-      ]
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 7,
+      "type": "MarkdownNote",
+      "pos": [
+        4270,
+        -1070
+      ],
+      "size": [
+        343.3236083984375,
+        101.29678344726562
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "[Tuotrial](https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1) | [教程](https://docs.comfy.org/zh-CN/tutorials/api-nodes/openai/gpt-image-1)\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 8,
+      "type": "MarkdownNote",
+      "pos": [
+        4276.142578125,
+        -923.7203979492188
+      ],
+      "size": [
+        326.5185852050781,
+        286.05029296875
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "About API Node",
+      "properties": {},
+      "widgets_values": [
+        "To use the API, you must be in a secure network environment:\n\n- Only allows access from `127.0.0.1` or `localhost`.\n\n- Using the `--listen` parameter to access API Nodes via the LAN is not supported.\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n\n---\n\n要使用API，你必须处于安全的网络环境中：\n\n- 仅允许从`127.0.0.1`或`localhost`访问。\n- 不支持使用`--listen`参数通过局域网访问API节点。\n- 确保你能够正常连接我们的API服务（某些地区可能需要代理）。\n- 确保你已在设置中登录，且你的账户仍有足够的积分来支付API调用的消耗。\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -263,7 +289,7 @@
         1314.564411047733
       ]
     },
-    "frontendVersion": "1.17.9",
+    "frontendVersion": "1.18.5",
     "node_versions": {
       "comfy-core": "0.3.29"
     },
