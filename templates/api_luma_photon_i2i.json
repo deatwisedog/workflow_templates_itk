@@ -1,15 +1,15 @@
 {
   "id": "7a9b9238-d961-4305-9894-bf4ae73f5bd2",
   "revision": 0,
-  "last_node_id": 9,
+  "last_node_id": 7,
   "last_link_id": 3,
   "nodes": [
     {
       "id": 3,
       "type": "LoadImage",
       "pos": [
-        1105.0224609375,
-        2354.72265625
+        -136.33944702148438,
+        845.408447265625
       ],
       "size": [
         270,
@@ -37,16 +37,16 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "00_00003_.png",
+        "input.png",
         "image"
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "type": "MarkdownNote",
       "pos": [
-        760.43798828125,
-        2602.451416015625
+        -474.4827575683594,
+        1097.0435791015625
       ],
       "size": [
         315.338134765625,
@@ -66,11 +66,62 @@
       "bgcolor": "#653"
     },
     {
+      "id": 6,
+      "type": "MarkdownNote",
+      "pos": [
+        -472.6802062988281,
+        854.0311889648438
+      ],
+      "size": [
+        309.3516540527344,
+        194.78041076660156
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "About Luma Image to Image",
+      "properties": {},
+      "widgets_values": [
+        "[Tuotrial](https://docs.comfy.org/tutorials/api-nodes/luma/luma-image-to-image) | [教程](https://docs.comfy.org/zh-CN/tutorials/api-nodes/luma/luma-image-to-image) \n\n1 - \"image\" is required, and only single - image input is supported.\n\n2 - The more \"image_weight\", the freer the output result.\n\n---\n\n1 - “image” 是必须的，仅支持单张图片输入\n\n2 - “image_weight” 越大输出的结果越自由"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 5,
+      "type": "SaveImage",
+      "pos": [
+        621.649658203125,
+        855.6395263671875
+      ],
+      "size": [
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 3
+        }
+      ],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Luma/img2img/00"
+      ]
+    },
+    {
       "id": 2,
       "type": "LumaImageModifyNode",
       "pos": [
-        1406.75439453125,
-        2355.292724609375
+        176.6533660888672,
+        850.8272094726562
       ],
       "size": [
         400,
@@ -100,62 +151,11 @@
       },
       "widgets_values": [
         "a photorealistic high definition of a Ramphastos dicolorus eye's iris on a green vivid background",
-        0.8000000000000002,
+        0,
         "photon-1",
         318243184397756,
         "randomize"
       ]
-    },
-    {
-      "id": 5,
-      "type": "SaveImage",
-      "pos": [
-        1848.2003173828125,
-        2357.88232421875
-      ],
-      "size": [
-        270,
-        270
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 3
-        }
-      ],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "ComfyUI_Luma"
-      ]
-    },
-    {
-      "id": 7,
-      "type": "MarkdownNote",
-      "pos": [
-        762.2405395507812,
-        2359.439697265625
-      ],
-      "size": [
-        309.3516540527344,
-        194.78041076660156
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "About Luma Image to Image",
-      "properties": {},
-      "widgets_values": [
-        "[Tuotrial](https://docs.comfy.org/tutorials/api-nodes/luma/luma-image-to-image) | [教程](https://docs.comfy.org/zh-CN/tutorials/api-nodes/luma/luma-image-to-image) \n\n1 - \"image\" is required, and only single - image input is supported.\n\n2 - The more \"image_weight\", the freer the output result.\n\n---\n\n1 - “image” 是必须的，仅支持单张图片输入\n\n2 - “image_weight” 越大输出的结果越自由"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -179,13 +179,6 @@
   "groups": [],
   "config": {},
   "extra": {
-    "ds": {
-      "scale": 0.6139600500176347,
-      "offset": [
-        -680.0702920904815,
-        -2204.8141297806687
-      ]
-    },
     "frontendVersion": "1.18.5"
   },
   "version": 0.4
