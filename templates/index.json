@@ -497,6 +497,20 @@
         "mediaSubtype": "webp"
       },
       {
+        "name": "api_kling_effects",
+        "title": "Kling: Video Effects",
+        "description": "Apply stunning visual effects to your images and transform them into dynamic videos. Choose from a variety of effects.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_kling_flf",
+        "title": "Kling: FLF2V",
+        "description": "Generate videos through controlling the first and last frames.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
         "name": "api_veo2_i2v",
         "title": "Veo2: Image to Video",
         "description": "Use Google Veo2 API to generate videos from images.",
