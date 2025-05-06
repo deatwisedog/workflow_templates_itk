@@ -352,7 +352,7 @@
     "templates": [
       {
         "name": "api_openai_image_1_t2i",
-        "title": "OpenAI Image-1 Text to Image",
+        "title": "OpenAI: Image-1 Text to Image",
         "description": "Use GPT Image 1 API to generate images from text descriptions.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -360,7 +360,7 @@
       },
       {
         "name": "api_openai_image_1_i2i",
-        "title": "OpenAI Image-1 Image to Image",
+        "title": "OpenAI: Image-1 Image to Image",
         "description": "Use GPT Image 1 API to generate images from images.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -369,7 +369,7 @@
       },
       {
         "name": "api_openai_image_1_inpaint",
-        "title": "OpenAI Image-1 Inpaint",
+        "title": "OpenAI: Image-1 Inpaint",
         "description": "Use GPT Image 1 API to inpaint images.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -378,7 +378,7 @@
       },
       {
         "name": "api_openai_image_1_multi_inputs",
-        "title": "OpenAI Image-1 Multi Inputs",
+        "title": "OpenAI: Image-1 Multi Inputs",
         "description": "Use GPT Image 1 API with multiple inputs to generate images.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -386,16 +386,16 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
       },
       {
-        "name": "api-openai-dall-e-2-t2i",
-        "title": "Dall-E 2 Text to Image",
+        "name": "api_openai_dall_e_2_t2i",
+        "title": "Dall·E 2: Text to Image",
         "description": "Use Dall-E 2 API to generate images from text descriptions.",
         "mediaType": "image",
         "mediaSubtype": "webp",
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
       },
       {
-        "name": "api-openai-dall-e-2-inpaint",
-        "title": "Dall-E 2 Inpaint",
+        "name": "api_openai_dall_e_2_inpaint",
+        "title": "Dall·E 2: Inpaint",
         "description": "Use Dall-E 2 API to inpaint images.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -403,8 +403,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
       },
       {
-        "name": "api-openai-dall-e-3-t2i",
-        "title": "Dall-E 3 Text to Image",
+        "name": "api_openai_dall_e_3_t2i",
+        "title": "Dall·E 3: Text to Image",
         "description": "Use Dall-E 3 API to generate images from text descriptions.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -412,28 +412,28 @@
       },
       {
         "name": "api_bfl_flux_pro_t2i",
-        "title": "BFL Flux[Pro] Text to Image",
+        "title": "BFL Flux[Pro]: Text to Image",
         "description": "Create images with FLUX.1 [pro]'s excellent prompt following, visual quality, image detail and output diversity.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_stability_ai_stable_image_ultra_t2i",
-        "title": "Stability AI Stable Image Ultra Text to Image",
+        "title": "Stability AI: Stable Image Ultra Text to Image",
         "description": "Generate high quality images with excellent prompt adherence. Perfect for professional use cases at 1 megapixel resolution.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_ideogram_v3_t2i",
-        "title": "Ideogram V3 Text to Image",
+        "title": "Ideogram V3: Text to Image",
         "description": "Generate images with high-quality image-prompt alignment, photorealism, and text rendering. Create professional-quality logos, promotional posters, landing page concepts, product photography, and more. Effortlessly craft sophisticated spatial compositions with intricate backgrounds, precise and nuanced lighting and colors, and lifelike environmental detail.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_luma_photon_i2i",
-        "title": "Luma Photon Image to Image",
+        "title": "Luma Photon: Image to Image",
         "description": "Guide image generation using a combination of images and prompt.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -441,7 +441,7 @@
       },
       {
         "name": "api_luma_photon_style_ref",
-        "title": "Luma Photon Style Reference",
+        "title": "Luma Photon: Style Reference",
         "description": "Apply and blend style references with exact control. Luma Photon captures the essence of each reference image, letting you combine distinct visual elements while maintaining professional quality.",
         "mediaType": "image",
         "mediaSubtype": "webp",
@@ -449,21 +449,21 @@
       },
       {
         "name": "api_recraft_image_gen_with_color_control",
-        "title": "Recraft Color Control Image Generation",
+        "title": "Recraft: Color Control Image Generation",
         "description": "Create a custom palette to reuse for multiple images or hand-pick colors for each photo. Match your brand's color palette and craft visuals that are distinctly yours.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_recraft_image_gen_with_style_control",
-        "title": "Recraft Style Control Image Generation",
+        "title": "Recraft: Style Control Image Generation",
         "description": "Control style with visual examples, align positioning, and fine-tune objects. Store and share styles for perfect brand consistency.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_recraft_vector_gen",
-        "title": "Recraft Vector Generation",
+        "title": "Recraft: Vector Generation",
         "description": "Go from a text prompt to vector image with Recraft's AI vector generator. Produce the best-quality vector art for logos, posters, icon sets, ads, banners and mockups. Perfect your designs with sharp, high-quality SVG files. Create branded vector illustrations for your app or website in seconds.",
         "mediaType": "image",
         "mediaSubtype": "webp"
@@ -477,36 +477,43 @@
     "templates": [
       {
         "name": "api_luma_i2v",
-        "title": "Luma Image to Video",
+        "title": "Luma: Image to Video",
         "description": "Take static images and instantly create magical high quality animations.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_luma_t2v",
-        "title": "Luma Text to Video",
+        "title": "Luma: Text to Video",
         "description": "High-quality videos can be generated using simple prompts.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_kling_i2v",
-        "title": "Kling Image to Video",
+        "title": "Kling: Image to Video",
         "description": "Create videos with great prompt adherence for actions, expressions, and camera movements. Now supporting complex prompts with sequential actions for you to be the director of your scene.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_veo2_i2v",
-        "title": "Veo2 Image to Video",
+        "title": "Veo2: Image to Video",
         "description": "Use Google Veo2 API to generate videos from images.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
       {
         "name": "api_hailuo_minimax_i2v",
-        "title": "MiniMax Image to Video",
+        "title": "MiniMax: Image to Video",
         "description": "Create refined videos from images and text, including CGI integration and trendy photo effects like viral AI hugging. Choose from a variety of video styles and themes to match your creative vision.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pika_i2v",
+        "title": "Pika: Image to Video",
+        "description": "Transform a single static image into a smooth, animated video. Leverage Pika's AI technology to bring natural motion and life to your images.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
@@ -514,6 +521,13 @@
         "name": "api_pika_scene",
         "title": "Pika Scenes: Images to Video",
         "description": "Use multiple images as ingredients and generate videos that incorporate all of them.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pixverse_i2v",
+        "title": "PixVerse: Image to Video",
+        "description": "Transforms static images into dynamic videos with motion and effects.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
@@ -526,7 +540,7 @@
       },
       {
         "name": "api_pixverse_t2v",
-        "title": "PixVerse Text to Video",
+        "title": "PixVerse: Text to Video",
         "description": "Generate videos with accurate prompt interpretation and stunning video dynamics.",
         "mediaType": "image",
         "mediaSubtype": "webp"
