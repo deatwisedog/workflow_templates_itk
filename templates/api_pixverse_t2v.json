@@ -1,8 +1,8 @@
 {
   "id": "40bd43e5-bb58-442a-9976-e5710e0041a0",
   "revision": 0,
-  "last_node_id": 6,
-  "last_link_id": 3,
+  "last_node_id": 8,
+  "last_link_id": 4,
   "nodes": [
     {
       "id": 6,
@@ -16,7 +16,7 @@
         249.875
       ],
       "flags": {},
-      "order": 1,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -47,7 +47,7 @@
         252
       ],
       "flags": {},
-      "order": 0,
+      "order": 2,
       "mode": 0,
       "inputs": [
         {
@@ -60,7 +60,7 @@
           "name": "pixverse_template",
           "shape": 7,
           "type": "PIXVERSE_TEMPLATE",
-          "link": null
+          "link": 4
         }
       ],
       "outputs": [
@@ -84,6 +84,61 @@
         1233550256,
         "randomize"
       ]
+    },
+    {
+      "id": 8,
+      "type": "PixverseTemplateNode",
+      "pos": [
+        92.2316665649414,
+        489.9173583984375
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "pixverse_template",
+          "type": "PIXVERSE_TEMPLATE",
+          "links": [
+            4
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PixverseTemplateNode"
+      },
+      "widgets_values": [
+        "Microwave"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "MarkdownNote",
+      "pos": [
+        -299.1886291503906,
+        488.6665344238281
+      ],
+      "size": [
+        370.8778991699219,
+        293.9327697753906
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "About API Node",
+      "properties": {},
+      "widgets_values": [
+        "To use the API, you must be in a secure network environment:\n\n- Only allows access from `127.0.0.1` or `localhost`.\n\n- Using the `--listen` parameter to access API Nodes via the LAN is not supported.\n\n- Make sure you can normally connect to our API services (some regions may need a proxy).\n\n- Make sure you are logged in in the settings and that your account still has enough credits to cover the consumption of API calls.\n\n---\n\n要使用API，你必须处于安全的网络环境中：\n\n- 仅允许从`127.0.0.1`或`localhost`访问。\n- 不支持使用`--listen`参数通过局域网访问API节点。\n- 确保你能够正常连接我们的API服务（某些地区可能需要代理）。\n- 确保你已在设置中登录，且你的账户仍有足够的积分来支付API调用的消耗。\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -94,12 +149,20 @@
       6,
       0,
       "VIDEO"
+    ],
+    [
+      4,
+      8,
+      0,
+      4,
+      1,
+      "PIXVERSE_TEMPLATE"
     ]
   ],
   "groups": [],
   "config": {},
   "extra": {
-    "frontendVersion": "1.18.4"
+    "frontendVersion": "1.18.5"
   },
   "version": 0.4
 }
