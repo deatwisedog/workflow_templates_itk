@@ -425,6 +425,20 @@
         "mediaSubtype": "webp"
       },
       {
+        "name": "api_stability_ai_i2i",
+        "title": "Stability AI: Image to Image",
+        "description": "Transform your images with high-quality image-to-image generation. Perfect for professional image editing and style transfer.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_stability_ai_sd3.5_t2i",
+        "title": "Stability AI: SD3.5 Text to Image",
+        "description": "Generate high quality images with excellent prompt adherence. Perfect for professional use cases at 1 megapixel resolution.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
         "name": "api_ideogram_v3_t2i",
         "title": "Ideogram V3: Text to Image",
         "description": "Generate images with high-quality image-prompt alignment, photorealism, and text rendering. Create professional-quality logos, promotional posters, landing page concepts, product photography, and more. Effortlessly craft sophisticated spatial compositions with intricate backgrounds, precise and nuanced lighting and colors, and lifelike environmental detail.",
