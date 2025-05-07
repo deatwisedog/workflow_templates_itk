@@ -1,8 +1,8 @@
 {
   "id": "e62e2c49-db9e-49bc-a71b-3871b67cc7da",
   "revision": 0,
-  "last_node_id": 4,
-  "last_link_id": 2,
+  "last_node_id": 5,
+  "last_link_id": 3,
   "nodes": [
     {
       "id": 2,
@@ -16,7 +16,7 @@
         365
       ],
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -35,71 +35,6 @@
       },
       "widgets_values": [
         "ComfyUI"
-      ]
-    },
-    {
-      "id": 1,
-      "type": "StabilityStableImageSD_3_5Node",
-      "pos": [
-        1655.4786376953125,
-        1333.7921142578125
-      ],
-      "size": [
-        484.8544921875,
-        357.45458984375
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "shape": 7,
-          "type": "IMAGE",
-          "link": 2
-        },
-        {
-          "name": "negative_prompt",
-          "shape": 7,
-          "type": "STRING",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "StabilityStableImageSD_3_5Node",
-        "cnr_id": "comfy-core",
-        "ver": "0.3.29",
-        "widget_ue_connectable": {
-          "prompt": true,
-          "model": true,
-          "aspect_ratio": true,
-          "style_preset": true,
-          "cfg_scale": true,
-          "seed": true,
-          "image_denoise": true
-        }
-      },
-      "widgets_values": [
-        "a serene and peaceful scene of a glass cup filled with water and white daisies, the glass cup is positioned in the center of the image, with the flowers scattered around it, to the left of the cup, the camera is positioned directly, capturing the delicate petals and golden centers of the flowers, the background is blurred, with soft sunlight filtering through the leaves, creating a warm and inviting atmosphere, the overall effect is one of tranquility and natural beauty",
-        "sd3.5-large",
-        "1:1",
-        "cinematic",
-        4,
-        0,
-        1,
-        [
-          false,
-          true
-        ]
       ]
     },
     {
@@ -132,6 +67,8 @@
         }
       ],
       "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.31",
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
@@ -162,6 +99,106 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
+    },
+    {
+      "id": 1,
+      "type": "StabilityStableImageSD_3_5Node",
+      "pos": [
+        1675.613037109375,
+        1335.446044921875
+      ],
+      "size": [
+        484.8544921875,
+        357.45458984375
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 2
+        },
+        {
+          "name": "negative_prompt",
+          "shape": 7,
+          "type": "STRING",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.29",
+        "Node name for S&R": "StabilityStableImageSD_3_5Node",
+        "widget_ue_connectable": {
+          "prompt": true,
+          "model": true,
+          "aspect_ratio": true,
+          "style_preset": true,
+          "cfg_scale": true,
+          "seed": true,
+          "image_denoise": true
+        }
+      },
+      "widgets_values": [
+        "a serene and peaceful scene of a glass cup filled with water and white daisies, the glass cup is positioned in the center of the image, with the flowers scattered around it, to the left of the cup, the camera is positioned directly, capturing the delicate petals and golden centers of the flowers, the background is blurred, with soft sunlight filtering through the leaves, creating a warm and inviting atmosphere, the overall effect is one of tranquility and natural beauty",
+        "sd3.5-large",
+        "1:1",
+        "cinematic",
+        4,
+        0,
+        1,
+        [
+          false,
+          true
+        ]
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 5,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        1348.482666015625,
+        1712.058837890625
+      ],
+      "size": [
+        274.6571044921875,
+        184.1536865234375
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            3
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.31",
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        ""
+      ]
     }
   ],
   "links": [
@@ -180,6 +217,14 @@
       1,
       0,
       "IMAGE"
+    ],
+    [
+      3,
+      5,
+      0,
+      1,
+      1,
+      "STRING"
     ]
   ],
   "groups": [],
@@ -188,11 +233,11 @@
     "ds": {
       "scale": 1.1,
       "offset": [
-        -1348.4191820688502,
-        -1060.5253187391743
+        -618.4652809968507,
+        -1097.8925369209926
       ]
     },
-    "frontendVersion": "1.18.5",
+    "frontendVersion": "1.18.9",
     "ue_links": [],
     "links_added_by_ue": []
   },
