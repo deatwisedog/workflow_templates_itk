@@ -28,6 +28,14 @@
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/lora/"
       },
       {
+        "name": "lora_multiple",
+        "title": "Lora Multiple",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Combine multiple LoRA models for unique results.",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/lora/"
+      },
+      {
         "name": "inpaint_example",
         "title": "Inpaint",
         "mediaType": "image",
@@ -60,14 +68,6 @@
         "mediaSubtype": "webp",
         "description": "Specify the location and size of objects.",
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/gligen/"
-      },
-      {
-        "name": "lora_multiple",
-        "title": "Lora Multiple",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Combine multiple LoRA models for unique results.",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/lora/"
       }
     ]
   },

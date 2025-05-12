@@ -1,20 +1,16 @@
 {
-  "last_node_id": 14,
+  "id": "7cb6261d-3b03-4171-bbd1-a4b256b42404",
+  "revision": 0,
+  "last_node_id": 16,
   "last_link_id": 17,
   "nodes": [
     {
       "id": 7,
       "type": "CLIPTextEncode",
-      "pos": [
-        413,
-        389
-      ],
-      "size": {
-        "0": 425.27801513671875,
-        "1": 180.6060791015625
-      },
+      "pos": [413, 389],
+      "size": [425.27801513671875, 180.6060791015625],
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -27,32 +23,22 @@
         {
           "name": "CONDITIONING",
           "type": "CONDITIONING",
-          "links": [
-            6
-          ],
-          "slot_index": 0
+          "slot_index": 0,
+          "links": [6]
         }
       ],
       "properties": {
         "Node name for S&R": "CLIPTextEncode"
       },
-      "widgets_values": [
-        "watermark, text\n"
-      ]
+      "widgets_values": ["watermark, text\n"]
     },
     {
       "id": 6,
       "type": "CLIPTextEncode",
-      "pos": [
-        415,
-        186
-      ],
-      "size": {
-        "0": 422.84503173828125,
-        "1": 164.31304931640625
-      },
+      "pos": [415, 186],
+      "size": [422.84503173828125, 164.31304931640625],
       "flags": {},
-      "order": 2,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -65,10 +51,8 @@
         {
           "name": "CONDITIONING",
           "type": "CONDITIONING",
-          "links": [
-            4
-          ],
-          "slot_index": 0
+          "slot_index": 0,
+          "links": [4]
         }
       ],
       "properties": {
@@ -81,16 +65,10 @@
     {
       "id": 8,
       "type": "VAEDecode",
-      "pos": [
-        1209,
-        188
-      ],
-      "size": {
-        "0": 210,
-        "1": 46
-      },
+      "pos": [1209, 188],
+      "size": [210, 46],
       "flags": {},
-      "order": 6,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -108,29 +86,22 @@
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "links": [
-            9
-          ],
-          "slot_index": 0
+          "slot_index": 0,
+          "links": [9]
         }
       ],
       "properties": {
         "Node name for S&R": "VAEDecode"
-      }
+      },
+      "widgets_values": []
     },
     {
       "id": 9,
       "type": "SaveImage",
-      "pos": [
-        1451,
-        189
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
+      "pos": [1451, 189],
+      "size": [210, 58],
       "flags": {},
-      "order": 7,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -139,102 +110,17 @@
           "link": 9
         }
       ],
+      "outputs": [],
       "properties": {},
-      "widgets_values": [
-        "ComfyUI"
-      ]
-    },
-    {
-      "id": 10,
-      "type": "LoadImage",
-      "pos": [
-        215.9799597167969,
-        703.6800268554688
-      ],
-      "size": [
-        315,
-        314.00002670288086
-      ],
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            10
-          ],
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "example.png",
-        "image"
-      ]
-    },
-    {
-      "id": 12,
-      "type": "VAEEncode",
-      "pos": [
-        614.979959716797,
-        707.6800268554688
-      ],
-      "size": {
-        "0": 210,
-        "1": 46
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "pixels",
-          "type": "IMAGE",
-          "link": 10
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 16
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            11
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "VAEEncode"
-      }
+      "widgets_values": ["ComfyUI"]
     },
     {
       "id": 3,
       "type": "KSampler",
-      "pos": [
-        863,
-        186
-      ],
-      "size": {
-        "0": 315,
-        "1": 262
-      },
+      "pos": [863, 186],
+      "size": [315, 262],
       "flags": {},
-      "order": 5,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -262,10 +148,8 @@
         {
           "name": "LATENT",
           "type": "LATENT",
-          "links": [
-            7
-          ],
-          "slot_index": 0
+          "slot_index": 0,
+          "links": [7]
         }
       ],
       "properties": {
@@ -284,164 +168,154 @@
     {
       "id": 14,
       "type": "CheckpointLoaderSimple",
-      "pos": [
-        19,
-        433
-      ],
-      "size": {
-        "0": 315,
-        "1": 98
-      },
+      "pos": [53.31755065917969, 191.36024475097656],
+      "size": [315, 98],
       "flags": {},
-      "order": 1,
+      "order": 0,
       "mode": 0,
+      "inputs": [],
       "outputs": [
         {
           "name": "MODEL",
           "type": "MODEL",
-          "links": [
-            13
-          ],
-          "shape": 3,
-          "slot_index": 0
+          "slot_index": 0,
+          "links": [13]
         },
         {
           "name": "CLIP",
           "type": "CLIP",
-          "links": [
-            14,
-            15
-          ],
-          "shape": 3,
-          "slot_index": 1
+          "slot_index": 1,
+          "links": [14, 15]
         },
         {
           "name": "VAE",
           "type": "VAE",
-          "links": [
-            16,
-            17
-          ],
-          "shape": 3,
-          "slot_index": 2
+          "slot_index": 2,
+          "links": [16, 17]
         }
       ],
       "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
+        "Node name for S&R": "CheckpointLoaderSimple",
+        "models": [
+          {
+            "name": "v1-5-pruned-emaonly-fp16.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors?download=true",
+            "directory": "checkpoints"
+          }
+        ]
       },
+      "widgets_values": ["v1-5-pruned-emaonly-fp16.safetensors"],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 10,
+      "type": "LoadImage",
+      "pos": [166.07955932617188, 678.5671997070312],
+      "size": [315, 314.0000305175781],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [10]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": ["example.png", "image"],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 12,
+      "type": "VAEEncode",
+      "pos": [585.1956787109375, 685.038818359375],
+      "size": [210, 46],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 10
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 16
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [11]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 16,
+      "type": "MarkdownNote",
+      "pos": [-290.15606689453125, 191.5925750732422],
+      "size": [314.95745849609375, 133.0336456298828],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
       "widgets_values": [
-        "v1-5-pruned-emaonly-fp16.safetensors"
-      ]
+        "[Tutorials](https://docs.comfy.org/tutorials/basic/text-to-image)|[教程](https://docs.comfy.org/zh-CN/tutorials/basic/text-to-image)\n\nDownload  [v1-5-pruned-emaonly-fp16.safetensors](https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors?download=true) and save it in  **ComfyUI/models/checkpoints** \n\n---\n\n下载 [v1-5-pruned-emaonly-fp16.safetensors](https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors?download=true) 并保存到 **ComfyUI/models/checkpoints** 文件夹下"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
-    [
-      4,
-      6,
-      0,
-      3,
-      1,
-      "CONDITIONING"
-    ],
-    [
-      6,
-      7,
-      0,
-      3,
-      2,
-      "CONDITIONING"
-    ],
-    [
-      7,
-      3,
-      0,
-      8,
-      0,
-      "LATENT"
-    ],
-    [
-      9,
-      8,
-      0,
-      9,
-      0,
-      "IMAGE"
-    ],
-    [
-      10,
-      10,
-      0,
-      12,
-      0,
-      "IMAGE"
-    ],
-    [
-      11,
-      12,
-      0,
-      3,
-      3,
-      "LATENT"
-    ],
-    [
-      13,
-      14,
-      0,
-      3,
-      0,
-      "MODEL"
-    ],
-    [
-      14,
-      14,
-      1,
-      6,
-      0,
-      "CLIP"
-    ],
-    [
-      15,
-      14,
-      1,
-      7,
-      0,
-      "CLIP"
-    ],
-    [
-      16,
-      14,
-      2,
-      12,
-      1,
-      "VAE"
-    ],
-    [
-      17,
-      14,
-      2,
-      8,
-      1,
-      "VAE"
-    ]
+    [4, 6, 0, 3, 1, "CONDITIONING"],
+    [6, 7, 0, 3, 2, "CONDITIONING"],
+    [7, 3, 0, 8, 0, "LATENT"],
+    [9, 8, 0, 9, 0, "IMAGE"],
+    [10, 10, 0, 12, 0, "IMAGE"],
+    [11, 12, 0, 3, 3, "LATENT"],
+    [13, 14, 0, 3, 0, "MODEL"],
+    [14, 14, 1, 6, 0, "CLIP"],
+    [15, 14, 1, 7, 0, "CLIP"],
+    [16, 14, 2, 12, 1, "VAE"],
+    [17, 14, 2, 8, 1, "VAE"]
   ],
   "groups": [
     {
+      "id": 1,
       "title": "Loading images",
       "bounding": [
-        150,
-        630,
-        726,
-        171
+        124.6132583618164, 595.794921875, 700.1656494140625, 414.9020080566406
       ],
-      "color": "#3f789e"
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
     }
   ],
   "config": {},
-  "extra": {},
-  "version": 0.4,
-  "models": [{
-    "name": "v1-5-pruned-emaonly-fp16.safetensors",
-    "url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors?download=true",
-    "directory": "checkpoints"
-  }]
+  "extra": {
+    "frontendVersion": "1.19.4"
+  },
+  "version": 0.4
 }
