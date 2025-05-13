@@ -1,51 +1,9 @@
 {
   "id": "88ac5dad-efd7-40bb-84fe-fbaefdee1fa9",
   "revision": 0,
-  "last_node_id": 48,
-  "last_link_id": 112,
+  "last_node_id": 52,
+  "last_link_id": 115,
   "nodes": [
-    {
-      "id": 18,
-      "type": "VAEDecodeAudio",
-      "pos": [
-        1370,
-        100
-      ],
-      "size": [
-        150.93612670898438,
-        46
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "samples",
-          "type": "LATENT",
-          "link": 101
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 83
-        }
-      ],
-      "outputs": [
-        {
-          "name": "AUDIO",
-          "type": "AUDIO",
-          "links": [
-            26
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "VAEDecodeAudio"
-      },
-      "widgets_values": []
-    },
     {
       "id": 3,
       "type": "KSampler",
@@ -58,7 +16,7 @@
         262
       ],
       "flags": {},
-      "order": 6,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -119,7 +77,7 @@
         26
       ],
       "flags": {},
-      "order": 5,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -246,7 +204,7 @@
         58
       ],
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -309,7 +267,7 @@
         447.163330078125
       ],
       "flags": {},
-      "order": 4,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -351,7 +309,7 @@
         112
       ],
       "flags": {},
-      "order": 8,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -368,6 +326,165 @@
       "widgets_values": [
         "audio/ComfyUI"
       ]
+    },
+    {
+      "id": 50,
+      "type": "SaveAudioOpus",
+      "pos": [
+        1543.5848388671875,
+        454.3232421875
+      ],
+      "size": [
+        270,
+        136
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 114
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.34",
+        "Node name for S&R": "SaveAudioOpus"
+      },
+      "widgets_values": [
+        "audio/ComfyUI",
+        "128k"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "MarkdownNote",
+      "pos": [
+        1838.297119140625,
+        291.9790954589844
+      ],
+      "size": [
+        210,
+        160.2292938232422
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "These nodes can save audio in different formats. Currently, all the modes are Bypass. You can enable them as per your needs.\n\n这些节点可以将 audio  保存成不同格式，目前的模式都是 Bypass ，你可以按你的需要来启用"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 49,
+      "type": "SaveAudio",
+      "pos": [
+        1542.2867431640625,
+        285.7957458496094
+      ],
+      "size": [
+        270,
+        112
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 113
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.34"
+      },
+      "widgets_values": [
+        "audio/ComfyUI"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "VAEDecodeAudio",
+      "pos": [
+        1370,
+        100
+      ],
+      "size": [
+        150.93612670898438,
+        46
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 101
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 83
+        }
+      ],
+      "outputs": [
+        {
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            26,
+            113,
+            114,
+            115
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.32",
+        "Node name for S&R": "VAEDecodeAudio"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 51,
+      "type": "PreviewAudio",
+      "pos": [
+        1542.848388671875,
+        635.384033203125
+      ],
+      "size": [
+        270,
+        88
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 115
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.34",
+        "Node name for S&R": "PreviewAudio"
+      },
+      "widgets_values": []
     }
   ],
   "links": [
@@ -450,6 +567,30 @@
       3,
       0,
       "MODEL"
+    ],
+    [
+      113,
+      18,
+      0,
+      49,
+      0,
+      "AUDIO"
+    ],
+    [
+      114,
+      18,
+      0,
+      50,
+      0,
+      "AUDIO"
+    ],
+    [
+      115,
+      18,
+      0,
+      51,
+      0,
+      "AUDIO"
     ]
   ],
   "groups": [
@@ -469,7 +610,14 @@
   ],
   "config": {},
   "extra": {
-    "frontendVersion": "1.18.9"
+    "ds": {
+      "scale": 0.6673370443801444,
+      "offset": [
+        223.13051327790345,
+        475.6710559620916
+      ]
+    },
+    "frontendVersion": "1.19.9"
   },
   "version": 0.4
 }

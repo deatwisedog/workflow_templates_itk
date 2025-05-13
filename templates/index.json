@@ -772,12 +772,28 @@
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/audio/"
       },
       {
-        "name": "audio_ace_step_1_t2m",
-        "title": "ACE Step v1 Text to Music",
+        "name": "audio_ace_step_1_t2a_instrumentals",
+        "title": "ACE-Step v1 Text to Instrumentals Music",
         "mediaType": "audio",
         "mediaSubtype": "mp3",
-        "description": "Input text/lyrics to generate full music with melody, vocals, and accompaniment, supporting multilingual & style customization.",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/audio/"
+        "description": "Input text/lyrics to generate Instrumentals Music.",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1"
+      },
+      {
+        "name": "audio_ace_step_1_t2a_song",
+        "title": "ACE Step v1 Text to Song",
+        "mediaType": "audio",
+        "mediaSubtype": "mp3",
+        "description": "Input text/lyrics to generate song with human vocals, supporting multilingual & style customization.",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1"
+      },
+      {
+        "name": "audio_ace_step_1_m2m_editing",
+        "title": "ACE Step v1 M2M Editing",
+        "mediaType": "audio",
+        "mediaSubtype": "mp3",
+        "description": "Use M2M to edit existing song, change the style, lyrics, etc.",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1"
       }
     ]
   }
