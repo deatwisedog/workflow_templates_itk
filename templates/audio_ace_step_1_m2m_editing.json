@@ -1,8 +1,8 @@
 {
   "id": "88ac5dad-efd7-40bb-84fe-fbaefdee1fa9",
   "revision": 0,
-  "last_node_id": 56,
-  "last_link_id": 119,
+  "last_node_id": 59,
+  "last_link_id": 123,
   "nodes": [
     {
       "id": 48,
@@ -48,7 +48,7 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            111
+            123
           ]
         },
         {
@@ -68,9 +68,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple",
         "cnr_id": "comfy-core",
         "ver": "0.3.32",
-        "Node name for S&R": "CheckpointLoaderSimple",
         "models": [
           {
             "name": "ace_step_v1_3.5b.safetensors",
@@ -86,45 +86,6 @@
       "bgcolor": "#533"
     },
     {
-      "id": 45,
-      "type": "ModelSamplingSD3",
-      "pos": [
-        747.82958984375,
-        -81.39745330810547
-      ],
-      "size": [
-        270,
-        58
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 111
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            112
-          ]
-        }
-      ],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "ModelSamplingSD3"
-      },
-      "widgets_values": [
-        4.000000000000001
-      ]
-    },
-    {
       "id": 44,
       "type": "ConditioningZeroOut",
       "pos": [
@@ -136,7 +97,7 @@
         26
       ],
       "flags": {},
-      "order": 8,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -155,9 +116,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "ConditioningZeroOut",
         "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "ConditioningZeroOut"
+        "ver": "0.3.32"
       },
       "widgets_values": []
     },
@@ -173,7 +134,7 @@
         46
       ],
       "flags": {},
-      "order": 7,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -197,9 +158,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "VAEEncodeAudio",
         "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "VAEEncodeAudio"
+        "ver": "0.3.32"
       },
       "widgets_values": []
     },
@@ -215,7 +176,7 @@
         46
       ],
       "flags": {},
-      "order": 10,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -242,9 +203,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "VAEDecodeAudio",
         "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "VAEDecodeAudio"
+        "ver": "0.3.32"
       },
       "widgets_values": []
     },
@@ -271,9 +232,9 @@
       ],
       "outputs": [],
       "properties": {
+        "Node name for S&R": "SaveAudioMP3",
         "cnr_id": "comfy-core",
-        "ver": "0.3.34",
-        "Node name for S&R": "SaveAudioMP3"
+        "ver": "0.3.34"
       },
       "widgets_values": [
         "audio/ComfyUI",
@@ -292,7 +253,7 @@
         112
       ],
       "flags": {},
-      "order": 11,
+      "order": 13,
       "mode": 4,
       "inputs": [
         {
@@ -322,7 +283,7 @@
         88
       ],
       "flags": {},
-      "order": 13,
+      "order": 15,
       "mode": 4,
       "inputs": [
         {
@@ -333,9 +294,9 @@
       ],
       "outputs": [],
       "properties": {
+        "Node name for S&R": "PreviewAudio",
         "cnr_id": "comfy-core",
-        "ver": "0.3.34",
-        "Node name for S&R": "PreviewAudio"
+        "ver": "0.3.34"
       },
       "widgets_values": []
     },
@@ -362,9 +323,9 @@
       ],
       "outputs": [],
       "properties": {
+        "Node name for S&R": "SaveAudioOpus",
         "cnr_id": "comfy-core",
-        "ver": "0.3.34",
-        "Node name for S&R": "SaveAudioOpus"
+        "ver": "0.3.34"
       },
       "widgets_values": [
         "audio/ComfyUI",
@@ -396,9 +357,9 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "LoadAudio",
         "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "LoadAudio"
+        "ver": "0.3.32"
       },
       "widgets_values": [
         "audio_ace_step_1_t2a_instrumentals-1.mp3",
@@ -443,7 +404,7 @@
         475.584228515625
       ],
       "flags": {},
-      "order": 6,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -463,15 +424,38 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "TextEncodeAceStepAudio",
         "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "TextEncodeAceStepAudio"
+        "ver": "0.3.32"
       },
       "widgets_values": [
         "anime, cute female vocals, kawaii pop, j-pop, childish, piano, guitar, synthesizer, fast, happy, cheerful, lighthearted,female voice",
         "[verse]\nNeon lights they glow so bright\nCity whispers in the dead of night\nRhythms course through concrete veins\nCaught in echoes of old refrains\n\n[verse]\nBassline thumping in my chest\nHeartbeats mirror the city's zest\nZapping whispers fill the air\nSynthetic dreams floating everywhere\n\n[chorus]\nCrank it up and let it roll\nEmbrace the heat, let it unfold\nIn this rhythm, we find our home\nHear the night sing, our anthem's shown\n\n[verse]\nGuitar strings begin to moan\nRouse the soul from slumber's throne\nEach note, a tale untold\nIn this night, we're brave and bold\n\n[bridge]\nVoices merge in sweet harmony\nLost in a beautiful symphony\nEternal echoes, timeless sighs\nPassionate cries beneath the skies\n\n[verse]\nKeyboard keys come alive and play\nMelodies carried by the evening spray\nSeize the tune, don't let it go\nIn this instant, we start to soar",
         1.0000000000000002
       ]
+    },
+    {
+      "id": 56,
+      "type": "MarkdownNote",
+      "pos": [
+        1064.5172119140625,
+        360.5704345703125
+      ],
+      "size": [
+        312.7547912597656,
+        301.2734680175781
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "\nUpload an audio clip. Then, you can set the style you want to change in the tags of **TextEncodeAceStepAudio**, and change the gender of the voice, such as \"pop, female voice\" and so on.\n\nIn the **lyrics**, you can modify and edit the original lyrics, thus changing the lyrics in the original audio.\n\n[Important] The **denoise** of the Ksampler node needs to be adjusted. The higher the value, the greater the difference from the original audio. \n\n---\n\n上传一段音频，然后你可以在 **TextEncodeAceStepAudio** 的 tags 里设置想要改变的风格，更换人声的性别比如“pop,female voice” 等\n\n在 **lyrics** 里 你可以将原始的歌词进行修改编辑，从而改变原本音频中的歌词\n\n[重要] Ksampler node 的 **denoise** 需要进行调整，数值越高和原始的音频差异越大"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     },
     {
       "id": 3,
@@ -485,13 +469,13 @@
         262
       ],
       "flags": {},
-      "order": 9,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
           "name": "model",
           "type": "MODEL",
-          "link": 112
+          "link": 122
         },
         {
           "name": "positive",
@@ -520,42 +504,128 @@
         }
       ],
       "properties": {
+        "Node name for S&R": "KSampler",
         "cnr_id": "comfy-core",
-        "ver": "0.3.32",
-        "Node name for S&R": "KSampler"
+        "ver": "0.3.32"
       },
       "widgets_values": [
         854091846496054,
         "randomize",
         50,
-        4,
+        5,
         "res_multistep",
         "simple",
         0.6000000000000001
       ]
     },
     {
-      "id": 56,
-      "type": "MarkdownNote",
+      "id": 57,
+      "type": "LatentApplyOperationCFG",
       "pos": [
-        1064.5172119140625,
-        360.5704345703125
+        1060,
+        -70
       ],
       "size": [
-        312.7547912597656,
-        301.2734680175781
+        204.87850952148438,
+        46
       ],
       "flags": {},
-      "order": 4,
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 120
+        },
+        {
+          "name": "operation",
+          "type": "LATENT_OPERATION",
+          "link": 121
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            122
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LatentApplyOperationCFG"
+      }
+    },
+    {
+      "id": 58,
+      "type": "ModelSamplingSD3",
+      "pos": [
+        740,
+        -80
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 123
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            120
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ModelSamplingSD3",
+        "cnr_id": "comfy-core",
+        "ver": "0.3.32"
+      },
+      "widgets_values": [
+        5.000000000000001
+      ]
+    },
+    {
+      "id": 59,
+      "type": "LatentOperationTonemapReinhard",
+      "pos": [
+        690,
+        -190
+      ],
+      "size": [
+        314.7124938964844,
+        58
+      ],
+      "flags": {},
+      "order": 5,
       "mode": 0,
       "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "\nUpload an audio clip. Then, you can set the style you want to change in the tags of **TextEncodeAceStepAudio**, and change the gender of the voice, such as \"pop, female voice\" and so on.\n\nIn the **lyrics**, you can modify and edit the original lyrics, thus changing the lyrics in the original audio.\n\n[Important] The **denoise** of the Ksampler node needs to be adjusted. The higher the value, the greater the difference from the original audio. \n\n---\n\n上传一段音频，然后你可以在 **TextEncodeAceStepAudio** 的 tags 里设置想要改变的风格，更换人声的性别比如“pop,female voice” 等\n\n在 **lyrics** 里 你可以将原始的歌词进行修改编辑，从而改变原本音频中的歌词\n\n[重要] Ksampler node 的 **denoise** 需要进行调整，数值越高和原始的音频差异越大"
+      "outputs": [
+        {
+          "name": "LATENT_OPERATION",
+          "type": "LATENT_OPERATION",
+          "links": [
+            121
+          ]
+        }
       ],
-      "color": "#432",
-      "bgcolor": "#653"
+      "properties": {
+        "Node name for S&R": "LatentOperationTonemapReinhard"
+      },
+      "widgets_values": [
+        1
+      ]
     }
   ],
   "links": [
@@ -606,22 +676,6 @@
       3,
       1,
       "CONDITIONING"
-    ],
-    [
-      111,
-      40,
-      0,
-      45,
-      0,
-      "MODEL"
-    ],
-    [
-      112,
-      45,
-      0,
-      3,
-      0,
-      "MODEL"
     ],
     [
       113,
@@ -678,6 +732,38 @@
       55,
       0,
       "AUDIO"
+    ],
+    [
+      120,
+      58,
+      0,
+      57,
+      0,
+      "MODEL"
+    ],
+    [
+      121,
+      59,
+      0,
+      57,
+      1,
+      "LATENT_OPERATION"
+    ],
+    [
+      122,
+      57,
+      0,
+      3,
+      0,
+      "MODEL"
+    ],
+    [
+      123,
+      40,
+      0,
+      58,
+      0,
+      "MODEL"
     ]
   ],
   "groups": [
@@ -717,7 +803,7 @@
         641.6499388907655
       ]
     },
-    "frontendVersion": "1.19.9"
+    "frontendVersion": "1.19.4"
   },
   "version": 0.4
 }
