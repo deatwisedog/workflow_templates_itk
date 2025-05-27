@@ -629,20 +629,6 @@
         "mediaSubtype": "webp"
       },
       {
-        "name": "api_pika_i2v",
-        "title": "Pika: Image to Video",
-        "description": "Transform a single static image into a smooth, animated video. Leverage Pika's AI technology to bring natural motion and life to your images.",
-        "mediaType": "image",
-        "mediaSubtype": "webp"
-      },
-      {
-        "name": "api_pika_scene",
-        "title": "Pika Scenes: Images to Video",
-        "description": "Use multiple images as ingredients and generate videos that incorporate all of them.",
-        "mediaType": "image",
-        "mediaSubtype": "webp"
-      },
-      {
         "name": "api_runway_gen3a_turbo_image_to_video",
         "title": "Runway: Gen3a Turbo Image to Video",
         "description": "Create cinematic videos from static images with Runway's Gen3a Turbo speed.",
@@ -660,6 +646,20 @@
         "name": "api_runway_first_last_frame",
         "title": "Runway: First Last Frame to Video",
         "description": "Generate smooth video transitions between two keyframes with Runway's precision.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pika_i2v",
+        "title": "Pika: Image to Video",
+        "description": "Transform a single static image into a smooth, animated video. Leverage Pika's AI technology to bring natural motion and life to your images.",
+        "mediaType": "image",
+        "mediaSubtype": "webp"
+      },
+      {
+        "name": "api_pika_scene",
+        "title": "Pika Scenes: Images to Video",
+        "description": "Use multiple images as ingredients and generate videos that incorporate all of them.",
         "mediaType": "image",
         "mediaSubtype": "webp"
       },
