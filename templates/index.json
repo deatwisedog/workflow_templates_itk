@@ -1,5 +1,19 @@
 [
   {
+    "moduleName": "integrated",
+    "title": "Integrated workflows",
+    "type": "image",
+    "templates": [
+      {
+        "name": "sd35l",
+        "title": "Stable Diffusion 3.5 Large",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Генерация изображений по текстовому запросу."
+      }
+    ]
+  },
+  {
     "moduleName": "default",
     "title": "Basics",
     "type": "image",
